@@ -1,0 +1,7 @@
+# Main files
+/target
+Cargo.lock
+
+# Test crate files
+/test_crate/target
+/test_crate/Cargo.lock

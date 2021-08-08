@@ -1,0 +1,17 @@
+[package]
+name = "safe_attr"
+version = "1.0.0"
+authors = ["Joshua Barnett <zippymagician1@gmail.com>"]
+license = "Apache-2.0"
+description = "An attribute #[safe] to mark functions, allowing the ommission of unsafe"
+repository = "https://github.com/ZippyMagician/safe_attr"
+keywords = ["unsafe", "safe", "attribute"]
+include = ["src/lib.rs", "README.md", "LICENSE"]
+
+[lib]
+name = "safe_attr"
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0.9"
